@@ -38,6 +38,7 @@ public class OrderServiceImpl implements OrderService {
             productDao.update(product);
             transactionManager.commit(transactionStatus);
         }catch (Exception e){
+            e.printStackTrace();
             transactionManager.rollback(transactionStatus);
         }
     }
