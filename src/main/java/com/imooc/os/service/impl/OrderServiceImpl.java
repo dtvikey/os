@@ -1,4 +1,4 @@
-package com.imooc.os.service.impl1;
+package com.imooc.os.service.impl;
 
 import com.imooc.os.dao.OrderDao;
 import com.imooc.os.dao.ProductDao;
